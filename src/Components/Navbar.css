@@ -1,0 +1,113 @@
+.nav-Link{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.nav-Link:hover{
+    color:darkgoldenrod;
+    text-decoration: underline;
+   
+}
+
+.active-page{
+    font-weight: bolder;
+    border-bottom: 1px darkgoldenrod;
+
+}
+
+
+
+/* Home Page Styling */
+
+#header{
+
+    
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    
+    /* width: 100%;
+    height: 40vh; */
+}
+
+.my-3{
+    margin-top: 5px;
+    font-size: 20px;
+    
+}
+
+.btnn{
+    text-decoration: none;
+    border: 1px solid rgb(96, 200, 235) ;
+    background-color: white;
+    padding: 7px;
+    margin-top: 25px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+    color:black;
+   
+    
+}
+
+.btnn:hover{
+    background-color: rgb(96, 200, 235);
+    color: black;
+    border: 1px solid black
+}
+
+.brand{
+    color: rgb(96, 200, 235);
+}
+
+#img{
+    /* margin-left: 10px;
+    margin-top: 40px; */
+    width: 450px;
+    height: 280px;
+    margin-left: auto;
+    margin-top: auto;
+
+}
+
+.mainText{
+
+    margin-left: 15%;
+    margin-top: 50px;
+
+}
+
+
+#header{
+    width: 100%;
+    height: 65vh;
+    
+}
+
+#img{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* @-webkit-keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+} */
+
+@keyframes up-down {
+    0% {
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+
