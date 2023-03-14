@@ -2,6 +2,8 @@ import sd from "../images/sd.jpg"
 import wd from "../images/wd.jpg"
 import md from "../images/md.png"
 import dm from "../images/dm.png"
+import android from "../images/android.avif"
+import ios from "../images/ios2.jpg"
 
 const Data = [
     {
@@ -29,13 +31,13 @@ const Data = [
     },
 
     {
-        imgsrc: sd,
-        title: "Data Analyist", 
+        imgsrc: ios,
+        title: "IOS Development", 
         disc: "In this course you will gonna learn about Data Analyist"
     },
 
     {
-        imgsrc: md,
+        imgsrc: android,
         title: "Android Development", 
         disc: "In this course you will gonna learn about Android Development"
     },

@@ -7,7 +7,7 @@ export default function Card(props) {
         <>
             <div className="col-md-4 mt-3 col-10 mx-auto">
 
-                <div className="card">
+                <div className="card" style={{backgroundColor: document.body.style.backgroundColor==='black'?'black':'white' , color: document.body.style.backgroundColor==='black'?'white':'black' }}>
                     <img src={props.imgSrc} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{props.title}</h5>

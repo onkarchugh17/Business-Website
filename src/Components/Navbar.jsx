@@ -1,6 +1,10 @@
 import React from "react";
 import './Navbar.css'
 import { NavLink } from "react-router-dom";
+import facebook from "../images/facebook.png"
+import instagram from "../images/instagram.png"
+import twitter from "../images/twitter.png"
+import linkedin from "../images/linkedin.png"
 
 export default function Navbar(props){
     return(
@@ -30,6 +34,15 @@ export default function Navbar(props){
         
         
       </ul>
+
+      <div >
+        
+        <a href="/"><img src={facebook} alt="" style={{width : "35px", marginRight : "12px"}} /></a>
+        <a href="/"><img src={instagram} alt="" style={{width : "35px", marginRight : "12px"}} /></a>
+        <a href="/"><img src={twitter} alt="" style={{width : "35px", marginRight : "12px"}} /></a>
+        <a href="/"><img src={linkedin} alt="" style={{width : "35px", marginRight : "18px"}} /></a>
+        
+      </div>
 
       <div className="form-check form-switch">
   <input style={props.istyle} className="form-check-input" onClick={props.toggle} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>

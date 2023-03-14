@@ -13,6 +13,7 @@ import Alert from './Components/Alert';
 
 
 
+
 function App() {
 
   let[ialert , newalert] = useState(null)
@@ -43,6 +44,7 @@ function App() {
         })
         document.body.style.backgroundColor = "black"
         document.body.style.color = "white"
+        
         newalert("Dark mode enabled")
        
 

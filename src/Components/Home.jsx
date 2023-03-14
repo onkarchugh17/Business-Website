@@ -1,7 +1,7 @@
 import React from "react";
 import './Navbar.css';
 import web from '../images/ind.webp'
-import { NavLink } from "react-router-dom";
+
 import Common from "./Common.jsx";
 
 

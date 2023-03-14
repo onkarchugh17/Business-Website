@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Card from "./Card";
 import Data from "./Data";
 import "./Service.css"
@@ -21,6 +21,7 @@ export default function Service() {
                                     Data.map((element , index)=>{
                                        
                                       return  <Card key={index}
+                                      
                                         imgSrc ={element.imgsrc}
                                          title={element.title}
                                          disc ={element.disc}
